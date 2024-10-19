@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&family=Pixelify+Sans:wght@600&family=Righteous&family=Secular+One&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    height: 100vh;
+    background-image: url(assets/theme.png);
+    background-size: cover;
+    font-size: 25px;
+    overflow-x: hidden;
+   
+    font-family: Righteous, Helvetica, sans-serif;
+
+}
+h1{
+    margin-top: 0;
+}
+.restart1 {
+    margin: 0 auto;
+    position: absolute;
+    margin-right: 20px;
+    top: 50%;
+    left: 40%;
+   
+
+}
+
+.restart2 {}
+
+#divtable {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: left;
+
+
+}
+
+#info {
+    min-width: 400px;
+    width: 40vh;
+    margin: auto;
+    max-height:auto;
+    margin-right: 3%;
+    margin-left: 20px;
+    flex: 1;
+}
+
+#sec div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+
+}
+
+#sec div>div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+#sec div>div button {
+    display: block;
+    margin: 5px 0;
+}
+
+#sec div p:nth-child(1) {
+    text-align: left;
+    margin: 0;
+}
+
+#sec div p:nth-child(2) {
+    text-align: left;
+    margin: 0;
+    margin-left: 1%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sec div {
+    display: flex;
+}
+
+#divtable table {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+    margin: 0;
+    background-color: aliceblue;
+    height: 60vh;
+    width: 60vh;
+}
+
+#divtable table td {
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+
+}
+
+#sec div table {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+    background-color: aliceblue;
+
+
+}
+
+#sec div table td {
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+    width: 4vh;
+    height: 4vh;
+}
+
+button {
+    font-size: large;
+    font-family: Righteous, Helvetica, sans-serif;
+    padding: 15px 25px;
+    background-color: bisque;
+    border-color: bisque;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+
+button:hover {
+    background-color: rgb(169, 147, 119);
+    border-color: rgb(169, 147, 119);
+}
+
+button:active {
+    background-color: rgb(169, 147, 119);
+    border-color: rgb(169, 147, 119);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#seasons {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#seasons div {
+    display: inline-block;
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+    max-width: 150px;
+}
+
+#seasons p {
+    color: azure;
+    font-size: 25px;
+    padding: 0;
+    display: block;
+    line-height: 0px
+}
+
+#sum {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#text {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#second {
+    margin: 0;
+}
+
+#missions p:not(.point) {
+    font-size: 25px;
+    margin: 0;
+}
+
+.point {
+    margin: 0;
+    font-size: 18px;
+}
+
+#missions hr {
+
+    border: 1px solid black;
+}
+
+#imggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 0px;
+    grid-column-gap: 10px;
+    font-size: 10px;
+}
+
+#imggrid img {
+    border-radius: 40px;
+    border: 5px solid rgba(0, 128, 0, 0);
+    width: 100%;
+    height: auto;
+    max-height: 20vh;
+
+}
+
+
+#spring {
+    border: 3px solid green;
+    background-color: rgb(51, 146, 64);
+    border-radius: 5px;
+}
+
+#summer {
+    border: 3px solid yellow;
+    background-color: rgb(184, 182, 80);
+    border-radius: 5px;
+}
+
+#autumn {
+    border: 3px solid brown;
+    background-color: rgb(146, 97, 51);
+    border-radius: 5px;
+}
+
+#winter {
+    border: 3px solid blue;
+    background-color: rgb(51, 135, 146);
+    border-radius: 5px;
+}
